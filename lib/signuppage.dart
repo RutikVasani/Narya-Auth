@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:narya_auth/genderbyimage.dart';
 import 'package:narya_auth/homepage.dart';
 import 'package:narya_auth/loginpage.dart';
 
@@ -71,7 +72,7 @@ class SignUpPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const HomePage(),
+                        builder: (context) => const GenderByImagePage(),
                       ),
                     );
                   },
